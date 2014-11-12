@@ -107,7 +107,7 @@ int	main()
 
 	printf("\n\t|**************************************************************|");
 	printf("\n\t|              Bem vindo ao Algoritmo Geneticos                |");
-	printf("\n\t|    para otimização de instalações eletricas industriais,     |");
+	printf("\n\t|    para otimizacao de instalacoes eletricas industriais,     |");
 	printf("\n\t|           siga as instrocoes e faca bom proveito.            |");
 	printf("\n\t|                                                              |");
 	printf("\n\t|  Creditos: Guilherme Bizzani                                 |");
@@ -150,7 +150,7 @@ int	main()
 		cin >> percent;
 	}
 
-	percent /= 100;
+	percent = percent/100.0;
 
 	qtIndividuos = ceil(matEntrada.size() * percent);
 
