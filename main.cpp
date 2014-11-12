@@ -104,6 +104,19 @@ vector<vector<int>> mutacao(vector<vector<int>> matIndiv){
 
 int	main()
 {
+
+	printf("\n\t|**************************************************************|");
+	printf("\n\t|              Bem vindo ao Algoritmo Geneticos                |");
+	printf("\n\t|    para otimização de instalações eletricas industriais,     |");
+	printf("\n\t|           siga as instrocoes e faca bom proveito.            |");
+	printf("\n\t|                                                              |");
+	printf("\n\t|  Creditos: Guilherme Bizzani                                 |");
+	printf("\n\t|                 Mauricio Henrique Secchi                     |");
+	printf("\n\t|                               Rodrigo Levinski               |");
+	printf("\n\t|--------------------------------------------------------------|");
+	printf("\n\t|  O Programa utiliza implementacoes de algoritmos geneticos.  |");
+	printf("\n\t|______________________________________________________________|");
+
 	int opc =0;
 	float percent = 50;
 	
